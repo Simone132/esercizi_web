@@ -10,6 +10,17 @@
             padding: 0;
             font-family: Arial, sans-serif;
         }
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px 0;
+        }
+        .menu a{
+            color: #fff;
+            text-decoration: none;
+        }
         .container{
             display: flex;
             flex-wrap: wrap;
@@ -46,24 +57,33 @@
     </style>
 </head>
 <body>
+    <div class="menu">
+        <a href="#backend">Sviluppo Backend</a>
+        <a href="#frontend">Sviluppo Frontend</a>
+        <a href="#database">Gestione Database</a>
+    </div>
    <div class="container">
-        <div class="section">
+        <div class="section" id="backend">
             <div class="card">
                 <img src="img/for-business.svg" alt="Backend Development">
                 <h2>Sviluppo Backend</h2>
                 <p>Competenze in Node.js, Express.js, Python, Django Ruby on Rails ecc.</p>
             </div> 
+        </div>
+        <div class="section" id="frontend">
             <div class="card">
                 <img src="img/for-designers.svg" alt="Fronted Development">
                 <h2>Sviluppo Frontend</h2>
                 <p>Competenze in HTML, CSS, JavaScript, React.js Vue.js Angular.js ecc.</p>
             </div>
+        </div>
+        <div class="section" id="database">
             <div class="card">
                 <img src="img/for-marketers.svg" alt="Database Management">
                 <h2>Gestione Database</h2>
                 <p>Competenze in MySQL, PostgreSQL, MOngoDB, Firebase, ecc.</p>
             </div>
         </div>
-   </div> 
+   </div>
 </body>
 </html>
