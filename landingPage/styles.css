@@ -73,3 +73,27 @@ color: #0080ff;
     width: 100%;
     height: auto;
 }
+#contact{
+    width: 100%;
+}
+#contact form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+#contact label{
+    font-weight: bold;
+}
+#contact input, #contact textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#contact input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+#contact input[type="submit"]:hover{
+    background-color: #444;
+}
