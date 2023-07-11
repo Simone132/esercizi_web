@@ -13,6 +13,11 @@ body{
 .menu a{
     color: #fff;
     text-decoration: none;
+    /*aggiunto*/
+    transition: 0.3s ease-in-out;
+}/*aggiunto*/
+.menu a:hover{
+color: #0080ff;
 }
 .container{
     display: flex;
@@ -41,6 +46,12 @@ body{
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    /*aggiunto*/
+    transition: 0.3s ease-in-out;
+}
+/*aggiunto*/
+.card:hover{
+    transform: scale(1.05);
 }
 .card img{
     width: 100%;
