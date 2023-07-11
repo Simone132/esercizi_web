@@ -3,6 +3,22 @@ body{
     padding: 0;
     font-family: 'Roboto' sans-serif;
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #fff;
+    background: linear-gradient(to right,#ff7e5f,#feb47b);
+    text-align: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 6.5rem;
+}
+.hero p{
+    font-size: 1.5rem;
+}
 .menu{
     background-color: #333;
     overflow: hidden;
