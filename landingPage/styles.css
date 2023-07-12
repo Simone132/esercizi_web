@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .hero{
     display: flex;
@@ -14,7 +14,7 @@ body{
     flex-direction: column;
 }
 .hero h1{
-    font-size: 6.5rem;
+    font-size: 5rem;
 }
 .hero p{
     font-size: 1.5rem;
@@ -70,7 +70,7 @@ color: #0080ff;
     transform: scale(1.05);
 }
 .card img{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 #contact{
@@ -89,10 +89,14 @@ gap: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-#contact input[type="submit"]{
+#contact input[type="submit"] {
     background-color: #333;
     color: #fff;
     cursor: pointer;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #contact input[type="submit"]:hover{
     background-color: #444;

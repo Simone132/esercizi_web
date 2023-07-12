@@ -6,21 +6,28 @@
     <title>Landing page</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="hero">
-        <h1>Il Mio Sito Full Stack</h1>
-        <p>Scopri le mie competenze nello sviluppo full stack.</p>
-    </div>
     <div class="menu">
         <a href="#backend">Sviluppo Backend</a>
         <a href="#frontend">Sviluppo Frontend</a>
         <a href="#database">Gestione Database</a>
+        <a href="#oop">Programmazione Orientatta Ad Oggetti</a>
+        <a href="#contact">Contatti</a>
     </div>
-   <div class="container">
+
+    <div class="hero">
+        <h1>Il Mio Sito Full Stack</h1>
+        <p>Scopri le mie competenze nello sviluppo full stack.</p>
+    </div>
+    
+    <div class="container">
         <div class="section" id="backend">
+            
             <div class="card">
                 <img src="img/for-business.svg" alt="Backend Development">
+                <i class="fa-solid fa-desktop" style="color: blueviolet;"></i> <!--formato svg per l'icona -->
                 <h2>Sviluppo Backend</h2>
                 <p>Competenze in Node.js, Express.js, Python, Django Ruby on Rails ecc.</p>
             </div> 
@@ -39,12 +46,12 @@
                 <p>Competenze in MySQL, PostgreSQL, MOngoDB, Firebase, ecc.</p>
             </div>
         </div>
-   </div>
-   <div class="section" id="oop">
+    </div>
+    <div class="section" id="oop">
         <div class="card">
-            <img src="oop.png" alt="Object-Orientated Programming">
+            <img src="img/for-everyone.svg" alt="Object-Orientated Programming">
             <h2>Programazzione Orientata agli Oggetti</h2>
-            <p>Competenze in Java,C++,PYthon, ecc.</p>
+            <p>Competenze in Java, C++, Python, ecc.</p>
         </div>
     </div>
         <div class="section" id="contact">
@@ -58,6 +65,6 @@
                 <textarea id="message" name="message" required></textarea>
                 <input type="submit" value="invia">
             </form>
-        </div>
+        </div>    
 </body>
 </html>
