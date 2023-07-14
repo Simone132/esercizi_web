@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #fff;
+    background: linear-gradient(to right,#00d5ff,#2802ff);
+    text-align: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 5rem;
+}
+.hero p{
+    font-size: 1.5rem;
+}
+.menu{
+    background-color:yellowgreen;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px 0;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.menu a:hover{
+color: #0080ff;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+@media screen and (min-width:600px) {
+    .section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:900px) {
+    .section{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 50%;
+    height: auto;
+}
+#contact{
+    width: 100%;
+}
+#contact form{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+#contact label{
+    font-weight: bold;
+}
+#contact input, #contact textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact input[type="submit"]:hover{
+    background-color: #444;
+}
