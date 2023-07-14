@@ -63,5 +63,57 @@ h1, h2{
 }
 p{
     text-align: center;
-    color: coral;
+    color: #FB6107;
+}
+
+.menu2 {
+    float: left;
+    width: 20%;
+    background-color: #ffffff;
+    margin-top: 0px;
+    height: 90%;
+    }
+    a {
+    padding: 10px 15px;
+    margin-top: 1px;
+
+    }
+    .main2 {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+    
+    }
+    .right2 {
+    background-color:#ffffff;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: -10px;
+    
+    }
+
+    @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main2 {
+    width: 80%;
+    padding: 0;
+    
+    }
+    .right2 {
+    width: 100%;
+    
+    background-color: #FFCF56;
+    }
+}
+    @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu2, .main2, .right2 {
+        width: 100%;
+        
+    }
+}
+.menu2 p{
+    color: #FB6107;
 }
