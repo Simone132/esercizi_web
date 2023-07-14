@@ -117,3 +117,55 @@ p{
 .menu2 p{
     color: #FB6107;
 }
+
+.menu3 {
+    float: left;
+    width: 20%;
+    background-color: #ffffff;
+    margin-top: 0px;
+    height: 90%;
+    }
+    a {
+    padding: 10px 15px;
+    margin-top: 1px;
+
+    }
+    .main3 {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+    
+    }
+    .right3 {
+    background-color:#ffffff;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: -10px;
+    
+    }
+
+    @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main3 {
+    width: 80%;
+    padding: 0;
+    
+    }
+    .right3 {
+    width: 100%;
+    
+    background-color: #FFCF56;
+    }
+}
+    @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu3, .main3, .right3 {
+        width: 100%;
+        
+    }
+}
+.menu3 p{
+    color: #FB6107;
+}
