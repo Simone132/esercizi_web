@@ -1,16 +1,18 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class sassocartaforbice{
-        public static void main(String[] args )
-        {
-                        Scanner input = new Scanner(System.in);
-            Random rand = new Random();
+public class sassocartaforbice {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        Random random = new Random();
 
-            int numeroCasuale = rand.nextInt(100)+1;
-            Giocatore giocatore = new Giocatore();
-            Gioco gioco = new Gioco(numeroCasuale, giocatore);
-            gioco.gioca();
-            input.close();
-        }
+        String[] options = {"sasso", "carta", "forbice"};
+        String computerMossa = options[random.nextInt(options.length)];
+        String utenteMossa = input.nextLine().toLowerCase();
+
+        Gioco gioco = new Gioco(computerMossa, utenteMossa);
+        gioco.partita(); // Assuming the Gioco class has a method named "play" that handles the game logic.
+
+        input.close();
     }
+}

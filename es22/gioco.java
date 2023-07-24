@@ -8,12 +8,12 @@ class Gioco
 
         private Giocatore giocatore;
 
-        public Gioco (int numeroCasuale,Giocatore giocatore){
+        public Gioco ( String utenteMossa, String computerMossa){
             this.utenteMossa = utenteMossa;
             this.computerMossa= computerMossa;
         }
 
-    public  void gioca(){
+    public  void partita(){
         Scanner input = new Scanner(System.in);
         Random random = new Random();
 
