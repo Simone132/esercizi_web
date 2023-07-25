@@ -1,3 +1,4 @@
+package es14;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -5,7 +6,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         String csvFile = "prodotto.csv";
         String line = "";
