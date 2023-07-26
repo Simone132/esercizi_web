@@ -1,4 +1,4 @@
-2023ID_Prodotto,Nome_Prodotto,Categoria,Prezzo,Quantita,DataVendita
+ID_Prodotto,Nome_Prodotto,Categoria,Prezzo,Quantita,DataVendita
 1,Mela,Frutta,0.50,100,2023-06-10
 2,Panino,Pane,1.00,50,2023-06-11
 3,Latte,Latticini,1.50,30,2023-06-12

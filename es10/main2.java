@@ -1,5 +1,5 @@
 import java.io.FileWriter; 
-import java.io.IOException; 
+import java.io.IOException;
 
 public class main2 {
     public static void main(String[] args) {

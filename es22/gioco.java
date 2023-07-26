@@ -2,26 +2,22 @@ import java.util.Random;
 import java.util.Scanner;
 class Gioco
 {
-    
-        private String utenteMossa;
-        private String computerMossa;
 
-        private Giocatore giocatore;
+    private String utenteMossa;
+    private String computerMossa;
 
-        public Gioco ( String utenteMossa, String computerMossa){
-            this.utenteMossa = utenteMossa;
-            this.computerMossa= computerMossa;
-        }
+    private Giocatore giocatore;
+
+    public Gioco ( String utenteMossa, String computerMossa){
+        this.utenteMossa = utenteMossa;
+        this.computerMossa= computerMossa;
+    }
 
     public  void partita(){
         Scanner input = new Scanner(System.in);
         Random random = new Random();
 
 
-        System.out.println("Inserisci la tua mossa (sasso, carta, forbice):");
-        System.out.println("inserisic il tuo nome:");
-        String nome = input.nextLine();
-        giocatore.setNome(nome);
 
         String[] options = {"sasso", "carta", "forbice"};
 
@@ -44,20 +40,18 @@ class Gioco
             }
             else if ((utenteMossa.equals("sasso") && computerMossa.equals("forbice")) ||
                 (utenteMossa.equals("carta") && computerMossa.equals("sasso")) ||
-                (utenteMossa.equals("forbice") && computerMossa.equals("carta"))) 
+                (utenteMossa.equals("forbice") && computerMossa.equals("carta")))
             {
-            System.out.println( nome + " Hai vinto!");
+            System.out.println(   " Hai vinto!");
             vincita= true;
             }
             else
             {
             System.out.println("hai perso");
             }
-        } 
+        }
 
-    
+
     }
 }
 
-        
-    
