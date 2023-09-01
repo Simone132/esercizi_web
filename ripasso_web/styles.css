@@ -1,0 +1,11 @@
+.icon-circolare {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: 50px; /* Imposta l'altezza desiderata */
+    border-radius: 50%; /* Rende l'elemento circolare */
+    background-color: white; /* Puoi impostare il colore di sfondo desiderato */
+    color:red; /* Puoi impostare il colore dell'icona desiderato */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-color: red;
+  }
